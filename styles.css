@@ -12,43 +12,75 @@
 	position: relative;
 }
 
-.navbar{
+
+nav{
 	width: 88%;
 	margin: auto;
-	padding: 15px 0;
+	padding: 15px auto 0px auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	border-bottom: 1px solid white;
 }
 
-.navbar ul li{
+nav ul li{
 	margin-top: 100px;
 	list-style: none;
 	display: inline-block;
 	margin: 0 15px;
 }
 
-.navbar ul li a{
+nav ul li a{
 	text-decoration: none;
 	color: white;
-	font-family: sans-serif;
+	font-family: Fontfabric;
+	font-size: 1.5em;
+	font-weight: bolder;
 	font-display: auto;
-	font-weight: bold;
 	text-shadow: 1px 1px 3px black;
 }
+
+.on{
+	color: rgb(226, 193, 150);
+}
+
+
 h1{	
 	  
-	   font-family: Baskerville, serif;
+	font-family: Baskerville, serif;
 	font-size: 2em;
 	color: whitesmoke;
 	padding-top: 6%;
-	padding-left: 18%;
-
+	padding-left: 15%;
+	display: block;
+	text-shadow: 2px 2px black;
 }
 
 span{
-    color: black;
+    color: rgb(226, 193, 150);
     font-family: Comic Sans MS, cursive;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 3px sandybrown;
+    font-size: 1.4em;
+	text-shadow: 1px 1px 3px black;
     }
+
+@media(max-width: 3000px){
+		h1{
+			font-size: 2.5em;
+		}
+	}
+	
+@media(max-width: 800px ){
+		h1{
+			font-size: 2em;
+		}
+	}
+
+@media(max-width: 600px){
+		h1{
+			font-size: 2em;
+		}
+		nav , nav ul{
+			flex-direction: column;
+			align-items: center;
+		}
+	}	
