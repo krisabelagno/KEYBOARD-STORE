@@ -48,7 +48,7 @@ nav ul li a{
 h1{	
 	  
 	font-family: Baskerville, serif;
-	font-size: 2em;
+	font-size: 2.3em;
 	color: whitesmoke;
 	padding-top: 6%;
 	padding-left: 15%;
@@ -83,4 +83,50 @@ span{
 			flex-direction: column;
 			align-items: center;
 		}
-	}	
+	}
+
+footer{
+	margin-top: 0px;
+	width: 100%;
+	padding: 20px 0 15px 0px;
+	background-color:  rgb(226, 193, 150);
+}
+
+footer .footer-main{
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color:  rgb(226, 193, 150) ;
+}
+
+footer .footer-main .footer-tag{
+	text-align: center;
+}
+
+footer .footer-main .footer-tag h2{
+
+	padding: 10px 0 0 1px;
+	color: black;
+	margin-bottom: 17px;
+	font-size: 1.5 em;
+}
+
+footer .footer-main .footer-tag p{
+	margin: 10px 10px;
+}
+
+footer .footer-main .footer-tag i{
+	margin: 0 5px;
+	cursor: pointer;
+	color: black;
+}
+
+footer .footer-main .footer-tag li{
+	list-style: none;
+	display: inline-block;
+}
+
+footer .footer-main .footer-tag i:hover{
+	color: whitesmoke;
+}
+
+
